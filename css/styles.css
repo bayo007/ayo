@@ -668,3 +668,15 @@ min-height:calc(100vh - 62px);
   text-align:center;
   padding-top:20px;
 }
+
+
+
+@media screen and (min-width: 576px) {
+  .Our-Artiste {
+    display:none !important;
+  }
+}
+
+/* .Our-Artiste{
+  display:none !important;
+} */
