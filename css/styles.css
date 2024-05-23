@@ -122,7 +122,7 @@ a {
 /*************** hero ***************/
 
 .hero {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   min-height: calc(100vh - 62px);
   /* background: var(--primaryColor); */
   display: flex;
@@ -157,6 +157,7 @@ a {
     url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93.JPG") center/cover no-repeat; */
 
     /* min-height: 120vh; */
+    max-height: 100vh;
     background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.JPG") center/cover no-repeat;
   
   }
