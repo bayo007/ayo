@@ -527,8 +527,8 @@ a {
   }
   /* show links */
   .nav-links {
-    /* height: auto; */
-    height: 900px !important;
+    height: auto;
+    /* height: 900px !important; */
     display: flex;
   }
   .nav-center {
