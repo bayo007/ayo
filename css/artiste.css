@@ -121,14 +121,14 @@ a {
 /*************** end of navbar ***************/
 /*************** hero ***************/
 
-/* .hero {
+.hero {
   min-height: 100vh;
   min-height: calc(100vh - 62px);
   display: flex;
   justify-content: center;
   align-items: center;
   background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93.jpg") center/cover no-repeat;
-} */
+}
 
 .clickme{
   animation: bounce 2s ease-in-out infinite;
@@ -152,11 +152,11 @@ a {
   font-weight: 400;
 }
 @media screen and (min-width: 768px) {
-  /* .hero {
+  .hero {
     min-height: 120vh;
     background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93.JPG") center/cover no-repeat;
   
-  } */
+  }
 
   .hero-title {
     font-size: 4.5rem;
@@ -667,3 +667,21 @@ min-height:calc(100vh - 62px);
   padding-top:20px;
 }
 
+
+
+
+.ourArtistes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+.ourArtiste-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+.ourArtiste-icon:hover {
+  color: var(--mainBlack);
+}
