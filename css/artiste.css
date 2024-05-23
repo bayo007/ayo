@@ -123,11 +123,12 @@ a {
 
 .hero {
   /* min-height: 100vh; */
-  min-height: calc(100vh - 62px);
+  height: calc(100vh - 62px);
   display: flex;
   justify-content: center;
   align-items: center;
-  background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.jpg") center/cover no-repeat;
+  z-index: 100;
+  background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93.jpg") center/cover no-repeat;
 }
 
 .clickme{
@@ -152,9 +153,9 @@ a {
 }
 @media screen and (min-width: 768px) {
   .hero {
-    min-height: 100vh;
-    background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.JPG") center/cover no-repeat;
-    min-height: 100vw;
+    height: calc(100vh - 62px);
+    z-index: 100;
+    background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93.JPG") center/cover no-repeat;
   
   }
 
