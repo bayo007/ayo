@@ -153,8 +153,8 @@ a {
 }
 @media screen and (min-width: 768px) {
   .hero {
-    /* background: linear-gradient(rgba(47, 50, 51, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93.JPG") center/cover no-repeat; */
+    background: linear-gradient(rgba(47, 50, 51, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93.JPG") center/cover no-repeat;
 
     min-height: 120vh;
     background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93.JPG") center/cover no-repeat;
@@ -527,7 +527,8 @@ a {
   }
   /* show links */
   .nav-links {
-    height: auto;
+    /* height: auto; */
+    height: 900px !important;
     display: flex;
   }
   .nav-center {
