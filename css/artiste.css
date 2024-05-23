@@ -127,7 +127,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93.jpg") center/cover no-repeat;
+  background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.jpg") center/cover no-repeat;
 }
 
 .clickme{
@@ -153,7 +153,7 @@ a {
 @media screen and (min-width: 768px) {
   .hero {
     /* min-height: 120vh; */
-    background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93.JPG") center/cover no-repeat;
+    background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.JPG") center/cover no-repeat;
   
   }
 
