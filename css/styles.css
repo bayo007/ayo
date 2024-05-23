@@ -128,7 +128,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93.jpg") center/cover no-repeat;
+  background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.jpg") center/cover no-repeat;
 }
 .clickme{
   animation: bounce 2s ease-in-out infinite;
@@ -153,11 +153,11 @@ a {
 }
 @media screen and (min-width: 768px) {
   .hero {
-    background: linear-gradient(rgba(47, 50, 51, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93.JPG") center/cover no-repeat;
+    /* background: linear-gradient(rgba(47, 50, 51, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93.JPG") center/cover no-repeat; */
 
-    min-height: 120vh;
-    background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93.JPG") center/cover no-repeat;
+    /* min-height: 120vh; */
+    background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.JPG") center/cover no-repeat;
   
   }
   .hero-title {
