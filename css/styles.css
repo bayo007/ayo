@@ -651,7 +651,7 @@ min-height:calc(100vh - 62px);
 
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .Our-Artiste {
     display:none !important;
   }
