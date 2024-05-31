@@ -492,12 +492,7 @@ a {
   overflow: hidden;
   transition: var(--mainTransition);
 }
-.show-links {
-  height: 270px;
-  scroll-behavior: smooth;
-  scrollbar-width:auto;
-  overflow-y:scroll;
-}
+
 /* nav at bigger screen size */
 @media screen and (min-width: 992px) {
   /* hide nav toggle button */
@@ -652,6 +647,7 @@ min-height:calc(100vh - 62px);
 
 
 @media screen and (min-width: 992px) {
+  /* above 992 */
   .Our-Artiste {
     display:none !important;
   }
@@ -693,3 +689,14 @@ min-height:calc(100vh - 62px);
 }
 }
 
+.show-links {
+  height: 270px;
+  scroll-behavior: smooth;
+  scrollbar-width:auto;
+}
+
+@media screen and (min-width: 768px) { 
+.show-links {
+  overflow-y:scroll;
+}
+}
