@@ -495,7 +495,7 @@ a {
 .show-links {
   height: 270px;
   scroll-behavior: smooth;
-  scrollbar-width:automatic;
+  scrollbar-width:auto;
   overflow-y:scroll;
 }
 /* nav at bigger screen size */
