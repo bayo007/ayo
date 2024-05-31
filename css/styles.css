@@ -695,7 +695,7 @@ min-height:calc(100vh - 62px);
   scrollbar-width:auto;
 }
 
-@media screen and (min-width: 10px) { 
+@media screen and (min-width: 576px) { 
 .show-links {
   overflow-y:scroll;
 }
