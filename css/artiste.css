@@ -121,15 +121,7 @@ a {
 /*************** end of navbar ***************/
 /*************** hero ***************/
 
-.hero {
-  /* min-height: 100vh; */
-  height: calc(100vh - 62px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 100;
-  background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.jpg") center/cover no-repeat;
-}
+
 
 .clickme{
   animation: bounce 2s ease-in-out infinite;
@@ -151,24 +143,7 @@ a {
   line-height: 2;
   font-weight: 400;
 }
-@media screen and (min-width: 576px) { 
-  .hero {
-    height: calc(100vh - 62px);
-    z-index: 100;
-    background:url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.JPG") center/cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-  }
 
-  .hero-title {
-    font-size: 4.5rem;
-  }
-  .hero-text {
-    width: 70%;
-  }
-}
 /* buttons added to global styles */
 /*************** about section ***************/
 .about {
@@ -688,4 +663,39 @@ min-height:calc(100vh - 62px);
 }
 .ourArtiste-icon:hover {
   color: var(--mainBlack);
+}
+
+
+
+
+
+
+
+/* 578,768,992,1170 */
+
+@media screen and (min-width: 768px) { 
+  /* above 768 */
+  .hero {
+    background: linear-gradient(rgba(47, 50, 51, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.jpg") center/cover no-repeat;
+    min-height: 100vh;
+    min-width: fit-content;
+  }
+}
+
+
+
+@media only screen and (max-width: 767px){
+  /* below 768 */
+.hero {
+  /* max-height: 100vh; */
+  min-height: 75vh;
+  min-width: 75vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(rgba(47, 50, 51, 0.7), rgba(0, 0, 0, 0.7)),
+  url("../images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.jpg") center/cover no-repeat;
+}
 }
