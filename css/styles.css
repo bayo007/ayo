@@ -494,6 +494,9 @@ a {
 }
 .show-links {
   height: 270px;
+  scroll-behavior: smooth;
+  scrollbar-width:automatic;
+  overflow-y:scroll;
 }
 /* nav at bigger screen size */
 @media screen and (min-width: 992px) {
