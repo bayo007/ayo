@@ -698,5 +698,8 @@ min-height:calc(100vh - 62px);
 @media screen and (min-width: 768px) { 
 .show-links {
   overflow-y:scroll;
+  height: 270px;
+  scroll-behavior: smooth;
+  scrollbar-width:auto;
 }
 }
